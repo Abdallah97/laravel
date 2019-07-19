@@ -1,0 +1,769 @@
+[33mcommit d01d1e565a9445c6a3422e3dc8ee17d3717810ea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: abdallah <abdallah.salah9700@gmail.com>
+Date:   Fri Jul 19 17:09:11 2019 +0200
+
+    my new commit
+
+[33mcommit f73795ac0569554d3464eecb259aef0d2dc64f72[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ryan Purcella <ryan.purcella@gmail.com>
+Date:   Thu Jul 18 08:20:32 2019 -0500
+
+    Update number of Laracasts videos (#5063)
+
+[33mcommit ddbbd0e67b804c379f212233e3b1c91a7b649522[m
+Author: Guilherme Pressutto <gpressutto5@gmail.com>
+Date:   Tue Jul 16 16:38:28 2019 -0300
+
+    Using environment variable to set redis prefix (#5062)
+    
+    It was the only redis setting that wasn't overridable by an environment variable. It can help if you have multiple instances using the same `APP_NAME`, e.g. a staging instance
+
+[33mcommit ff15a66d8c8d989ce6e1cee6fcc06c4025d06998[m
+Author: Artem Pakhomov <setnemo@gmail.com>
+Date:   Mon Jul 15 19:41:13 2019 +0300
+
+    Fixed lodash version (CVE-2019-10744) (#5060)
+
+[33mcommit afb7cd7311acd6e88a2c7faccdb8181583488d25[m
+Author: Miloš Gavrilović <Gavrisimo@users.noreply.github.com>
+Date:   Thu Jul 11 17:03:22 2019 +0200
+
+    update deprecated pusher option (#5058)
+
+[33mcommit e71f50f664b5b6a6ffbeffac668717bb40c36d93[m
+Author: Gary Green <holegary@gmail.com>
+Date:   Wed Jul 10 16:11:28 2019 +0100
+
+    Move TrustProxies to highest priority - fixes maintenance mode ip whitelist if behind proxy e.g. Cloudflare (#5055)
+
+[33mcommit ebc6f6e2c794b07c6d432483fd654aebf2ffe222[m
+Author: Sjors Ottjes <sjorsottjes@gmail.com>
+Date:   Tue Jun 18 12:18:58 2019 +0200
+
+    Update .gitignore (#5046)
+
+[33mcommit 6f3d68f67f3dab0e0d853719696ede8dfd9cc4e1[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Jun 4 08:10:26 2019 -0500
+
+    use generic default db config
+
+[33mcommit 014a1f0f5e1e757b8669c2ae6e78c49fc8b2978d[m
+Author: ziming <ziming@users.noreply.github.com>
+Date:   Fri May 31 20:54:50 2019 +0800
+
+    Update axios package (#5038)
+    
+    Update axios in package.json to ^0.19 so that I don't get security vulnerability notification emails from Github when I push to my laravel project repos even though ^0.18 covers 0.19 as well
+
+[33mcommit bf60f7f74f9578902650c30887190f86515a1037[m
+Author: Antoni Siek <parrotcraft@gmail.com>
+Date:   Thu May 30 18:22:45 2019 +0200
+
+    Added support for new redis URL property in config/database.php (#5037)
+    
+    Regarding laravel/framework#28612
+
+[33mcommit 953093795869beb658bdd9be9442188f39e62b6a[m
+Author: Kristoffer Högberg <krihog@gmail.com>
+Date:   Wed May 29 16:12:30 2019 +0200
+
+    Add DYNAMODB_ENDPOINT to the cache config (#5034)
+    
+    This adds the DYNAMODB_ENDPOINT environment variable to the
+    dynamodb store of the cache cofig.
+    
+    Its usage is implemented in the framework as laravel/framework#28600
+
+[33mcommit 762e987e5bc4c87fb75f7868f967ec3d19a379e0[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue May 21 15:15:32 2019 +0200
+
+    Uppercase doctype
+    
+    In similar fashion as https://github.com/laravel/framework/pull/28583
+
+[33mcommit f8e455e358046e59deb17b555b8949059a38ff77[m[33m ([m[1;33mtag: v5.8.17[m[33m)[m
+Author: Matt Hanley <3798302+matthanley@users.noreply.github.com>
+Date:   Tue May 14 14:28:37 2019 +0100
+
+    Fix type hint for case of trusting all proxies (string) (#5025)
+
+[33mcommit 93c687418963f7c99b641fda905015054c785eb4[m
+Author: Jason McCreary <jason@pureconcepts.net>
+Date:   Thu May 9 20:07:43 2019 -0400
+
+    Add ends_with validation message (#5020)
+
+[33mcommit fbd3ad7bbb5e98c607f19f7c697552863363bde4[m[33m ([m[1;33mtag: v5.8.16[m[33m)[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue May 7 17:19:27 2019 +0200
+
+    Update changelog
+
+[33mcommit b0e0bdc060ce068b73371919b904f3c7f0c1cfa6[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue May 7 07:38:15 2019 -0500
+
+    formatting
+
+[33mcommit 1086e26b32fb828ee74c8848246788a26bad72d7[m
+Author: Mathieu TUDISCO <oss@mathieutu.dev>
+Date:   Tue May 7 13:49:22 2019 +0200
+
+    Update database config relating to Url addition.
+
+[33mcommit 4b78ba61eac32cefa41da09149e0500e23cb06ec[m
+Merge: 65f82710 af15618b
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon May 6 08:30:56 2019 -0500
+
+    fix conflicts
+
+[33mcommit 65f8271032c113883fb3f1e8e7b3279821148ad1[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon May 6 08:30:33 2019 -0500
+
+    update version
+
+[33mcommit af15618b577be04fc999e3f11880d05f030d39ce[m
+Merge: a6bf2413 ccea56b6
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue Apr 30 14:02:22 2019 +0200
+
+    Merge pull request #5013 from laravel/revert-5012-feature/exported-files
+    
+    Revert "Exclude StyleCI config from exported files"
+
+[33mcommit ccea56b6f910649d8a6ee25f61896d2b96e90496[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue Apr 30 14:02:09 2019 +0200
+
+    Revert "Exclude StyleCI config from exported files (#5012)"
+    
+    This reverts commit a6bf24134d99be79e77b8969186b9f46ffee075a.
+
+[33mcommit a6bf24134d99be79e77b8969186b9f46ffee075a[m
+Author: Roberto Aguilar <roberto.aguilar.arrieta@gmail.com>
+Date:   Mon Apr 29 16:21:59 2019 -0500
+
+    Exclude StyleCI config from exported files (#5012)
+    
+    I noticed that this file was being included when i ran the
+    `laravel new` command and even though some developers will run StyleCI,
+    the purpose of this file seems more like it ensures the repository
+    quality rather than providing an starting point for this service.
+
+[33mcommit 3995828c13ddca61dec45b8f9511a669cc90a15c[m
+Author: Diego <cuisdy@gmail.com>
+Date:   Fri Apr 26 09:26:45 2019 -0300
+
+    [5.9] Minor grammar fix in readme.md (#5010)
+    
+    * Fix grammar ('Boost *your* skills')
+    
+    * Update readme.md
+
+[33mcommit 50176732d66b197de62d5567b79fc77f63e2cfbd[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Apr 24 07:38:42 2019 -0500
+
+    Apply fixes from StyleCI (#5006)
+
+[33mcommit 12a4885a47fbd272a4a942d49d7b1eb1b42f2b19[m
+Author: Stefan Bauer <mail@stefanbauer.me>
+Date:   Wed Apr 24 14:38:18 2019 +0200
+
+    Fix phpdoc to order by syntax convention (#5005)
+    
+    Reorder the `@var` phpdoc syntax by convention, see http://docs.phpdoc.org/references/phpdoc/tags/var.html
+
+[33mcommit 60db703a27bb09d0a51023131f850d5d424997db[m
+Author: Graham Campbell <GrahamCampbell@users.noreply.github.com>
+Date:   Tue Apr 23 13:44:51 2019 +0100
+
+    [5.8] Enable JS on StyleCI (#5000)
+    
+    * Enable JS on StyleCI
+
+[33mcommit f574aa76e3e1b8b1d77469e37d2857e27da14379[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Mon Apr 22 21:26:44 2019 +0200
+
+    Disable JS checks for now
+
+[33mcommit 81fba471aff24793be8ee3ee0d303d2b31056df2[m
+Merge: 43b09ad0 91dc5ed2
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Mon Apr 22 16:06:16 2019 +0200
+
+    Merge pull request #4998 from laravel/analysis-z9QV6a
+    
+    Apply fixes from StyleCI
+
+[33mcommit 43b09ad0f326584d56d20fc0cf2bef99b83af877[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Mon Apr 22 16:06:06 2019 +0200
+
+    Add file exclusions for styleci
+
+[33mcommit 91dc5ed2869b5905a01b0b85d70f33bbd9267b93[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Mon Apr 22 14:06:03 2019 +0000
+
+    Apply fixes from StyleCI
+
+[33mcommit 597201a049a0d1920533e5d0970a8283898becd3[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Mon Apr 22 15:55:40 2019 +0200
+
+    Add StyleCI config
+
+[33mcommit 06162adc9839ada8b2525e006bef6b80914296d6[m
+Merge: 0f58190c ef1ce665
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sun Apr 14 15:41:37 2019 -0500
+
+    Merge pull request #4990 from SjorsO/patch-1
+    
+    Add IDE typehint to UserFactory
+
+[33mcommit ef1ce665eef55e90952cd606ae120cf8c619822d[m
+Author: Sjors Ottjes <sjorsottjes@gmail.com>
+Date:   Sun Apr 14 13:30:53 2019 +0200
+
+    Update UserFactory.php
+
+[33mcommit 0f58190c7ba955cf7a58b47a9469bf4c6c992abb[m
+Merge: 20cdf65a 14b0a07d
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Fri Apr 12 12:06:24 2019 +0200
+
+    Merge pull request #4989 from DrewRoberts/update-readme-laracasts
+    
+    Update readme with Laracasts count
+
+[33mcommit 14b0a07d79a60ef45ce5b26f8b1c34ab9274dba7[m
+Author: DrewRoberts <github@drewroberts.com>
+Date:   Fri Apr 12 01:34:48 2019 -0400
+
+    Update readme with Laracasts count
+
+[33mcommit 20cdf65ae61ca7cfa45292d3dd642a252147ecc8[m
+Merge: 005ec130 1bed031c
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Apr 10 07:31:29 2019 -0500
+
+    Merge pull request #4987 from DivineOmega/patch-1
+    
+    [5.8] Remove underscore from cache prefix
+
+[33mcommit 1bed031c1f7cfcfeadf497934d301987c53b1e6e[m
+Author: Jordan Hall <jordan@hall05.co.uk>
+Date:   Wed Apr 10 12:01:28 2019 +0100
+
+    Remove underscore as cache prefixes automatically have a colon appended to them
+
+[33mcommit 005ec1301e3600c0a5d5a8355495d4333cab138b[m
+Merge: 35374927 3cbc5ac6
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Apr 8 07:47:02 2019 -0500
+
+    Merge pull request #4986 from DivineOmega/patch-1
+    
+    [5.8] Add underscores to cache and redis database prefixes
+
+[33mcommit 3cbc5ac640022cb4e3fcad7fc50e2086d32af6ae[m
+Author: Jordan Hall <jordan@hall05.co.uk>
+Date:   Mon Apr 8 08:52:06 2019 +0100
+
+    Additional underscore on cache prefix
+
+[33mcommit 159b0e79cd5b26bc7cd4699113951599a5b5d6d0[m
+Author: Jordan Hall <jordan@hall05.co.uk>
+Date:   Mon Apr 8 08:50:48 2019 +0100
+
+    Additional underscore on redis database prefix
+
+[33mcommit 35374927bd570d578f7db4a715f2a64a2ce561c1[m
+Merge: ae44ee00 e68ff0c6
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Fri Apr 5 08:55:41 2019 -0500
+
+    Merge pull request #4982 from DivineOmega/patch-1
+    
+    [5.8] Prefix redis database connection by default
+
+[33mcommit e68ff0c66aa1b3da2c9a14d86636d582fd73891e[m
+Author: Jordan Hall <jordan@hall05.co.uk>
+Date:   Thu Apr 4 22:18:28 2019 +0100
+
+    Use Str class instead of helper function
+
+[33mcommit c8bc79e94ee7f4a992d70faa5ec140a9059e603f[m
+Author: Jordan Hall <jordan@hall05.co.uk>
+Date:   Thu Apr 4 15:11:18 2019 +0100
+
+    Prefix redis database connection by default to mitigate multiple sites on the same server potentially sharing the same queued jobs
+
+[33mcommit ae44ee0059f6218aab26de5551b19f70329f8832[m
+Merge: 3886012c 88636c22
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Apr 1 10:54:27 2019 -0700
+
+    Merge pull request #4979 from hyperhost/add-hyper-host-sponsor
+    
+    Added Hyper Host sponsor
+
+[33mcommit 88636c2268aa5dada08a2cd08c098bd9d25880f4[m
+Author: Tony James <tony@hyper.host>
+Date:   Mon Apr 1 16:23:23 2019 +0100
+
+    Added Hyper Host sponsor
+    
+    Added Hyper Host name and url
+
+[33mcommit 3886012c0f3ad5653d9d5138530f3fc4276eaf93[m
+Merge: 4997f081 ccc1457e
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sun Mar 24 08:11:19 2019 -0700
+
+    Merge pull request #4971 from Lenophie/patch-1
+    
+    Ignore SQLite journals
+
+[33mcommit ccc1457e572f7ec5b2b596436622f69e94bbf635[m
+Author: Lenophie <quasiphies@gmail.com>
+Date:   Sun Mar 24 12:01:21 2019 +0100
+
+    Ignore SQLite journals
+
+[33mcommit 4997f08105d6fb941b1ed2c749ebd2f55fba5a74[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue Mar 12 17:22:48 2019 +0100
+
+    Update changelog
+
+[33mcommit 3b852a1f7f292953f47df64563cc01188db336ff[m
+Merge: 3d325b84 54cd6d90
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Fri Mar 8 08:03:29 2019 -0600
+
+    Merge pull request #4963 from chapeupreto/patch-1
+    
+    [5.8] upgrade the collision dependency from v2 to v3
+
+[33mcommit 54cd6d90bbe317040a0195e09c4fc40318bb988d[m
+Author: Rod Elias <rodiney@gmail.com>
+Date:   Thu Mar 7 23:20:15 2019 -0300
+
+    upgrade the collision dependency from v2 to v3
+
+[33mcommit 3d325b8485591bc77d1073f7aa73596acb76ec23[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue Mar 5 15:12:04 2019 +0100
+
+    Update changelog
+
+[33mcommit 3001f3c6e232ba7ce2ecdbdfe6e43b4c64ee05ad[m[33m ([m[1;33mtag: v5.8.3[m[33m)[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Feb 28 14:31:42 2019 -0600
+
+    check if extension loaded
+
+[33mcommit a0f6bcc773f3895db0ca4a85101b9a3ef2f95782[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Feb 28 08:34:10 2019 -0600
+
+    comment out options
+
+[33mcommit f4ff4f4176f7d931e301f36b95a46285ac61b8b8[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Feb 27 07:24:37 2019 -0600
+
+    comment
+
+[33mcommit d4d4a69b76d1dfd87b47b7a51b4c0e2aed992793[m
+Merge: f84a69ee b34328a1
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Feb 27 07:20:20 2019 -0600
+
+    Merge pull request #4956 from akalongman/master
+    
+    [5.8] Use correct env name for AWS region from env.example
+
+[33mcommit b34328a16654d09461fa53f8c681c15fe4e35095[m
+Author: Avtandil Kikabidze <akalongman@gmail.com>
+Date:   Wed Feb 27 14:05:01 2019 +0400
+
+    Use correct env name for AWS region from env.example
+
+[33mcommit f84a69ee852bd44363042a61995d330574b6b8c3[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 26 16:37:18 2019 -0600
+
+    add bucket to env example
+
+[33mcommit ff4f40fbabcefcb87facb1346fcfe5b8266eb40d[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 26 14:47:40 2019 -0600
+
+    set default region
+
+[33mcommit 0398581a446b83e887e3e42945329f2b59e33e34[m
+Merge: 02c23bdf 4c880d3c
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 26 11:11:26 2019 -0600
+
+    Merge branch 'master' of github.com:laravel/laravel
+
+[33mcommit 02c23bdfd57c174e80d71740181399172f99f254[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 26 11:11:16 2019 -0600
+
+    add postmark
+
+[33mcommit 4c880d3c7987197daf7596120bdf81e65bbbfb28[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue Feb 26 18:02:07 2019 +0100
+
+    Update changelog
+
+[33mcommit 0629a067a84a5f2c9a2d952e1231873ecac9d5c2[m
+Merge: f191f6f9 42c2a7ee
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue Feb 26 17:45:35 2019 +0100
+
+    Merge branch '5.7'
+
+[33mcommit 42c2a7ee2774cc0e5e2ff0243872606ef84ee9a5[m[33m ([m[1;31morigin/5.7[m[33m)[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue Feb 26 17:41:19 2019 +0100
+
+    Update changelog
+
+[33mcommit f191f6f9c37347999e1fafb469bb88331ebf13c0[m[33m ([m[1;33mtag: v5.8.0[m[33m)[m
+Merge: 505a891d 752ca6db
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 26 09:42:51 2019 -0600
+
+    Merge branch 'master' into develop
+
+[33mcommit 505a891db69cc5d217ca2cf588c517b64486392d[m
+Merge: 45742652 66eeb3bc
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 26 07:58:35 2019 -0600
+
+    Merge pull request #4952 from andrewgorpenko/andrewgorpenko-patch-1
+    
+    Fix unterminated statements
+
+[33mcommit 752ca6db17b47dfd6d6fe6548e3cd9e14ebe14c3[m
+Merge: 83b6be51 590ae170
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 26 07:51:25 2019 -0600
+
+    Merge pull request #4951 from CupOfTea696/feature/add-arr-and-str-aliases
+    
+    [5.8] Add Arr and Str aliases by default
+
+[33mcommit 66eeb3bca39b491110ef2143336b3e75eae5f396[m
+Author: Andrew Gorpenko <andrew.gorpenko@gmail.com>
+Date:   Tue Feb 26 15:51:24 2019 +0200
+
+    Fix unterminated statements
+    
+    This tiny patch adds missing commas to the app.js file.
+
+[33mcommit 590ae1703103011cc9d1d6abd924261748d7b8ac[m
+Author: Sven Wittevrongel <cupoftea696@gmail.com>
+Date:   Tue Feb 26 14:31:11 2019 +0100
+
+    Add Arr and Str aliases by default
+
+[33mcommit 45742652ccb0de5e569c23ec826f6106a8550432[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Feb 25 20:21:00 2019 -0600
+
+    add postmark token
+
+[33mcommit 0ee4cec5239861bdd7a962e18346a1b6f4770b85[m
+Merge: 64b16c28 b6813704
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Feb 25 14:32:57 2019 -0600
+
+    Merge branch 'develop' of github.com:laravel/laravel into develop
+
+[33mcommit 64b16c28526188e5577b86205cad5a5c953274ab[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Feb 25 14:32:49 2019 -0600
+
+    revert to old redis config
+
+[33mcommit b681370492d2903d5016d5be0ba401c6a4078506[m
+Merge: b5b2341f 426df7a0
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sun Feb 24 18:52:42 2019 -0600
+
+    Merge pull request #4946 from ankurk91/patch/big-int
+    
+    [5.8] use bigIncrements by default
+
+[33mcommit b5b2341fd63dde5372af4b95cf7369e2d70ba0a4[m
+Merge: 1d8add88 44d27417
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sun Feb 24 18:51:21 2019 -0600
+
+    Merge pull request #4949 from laravel/revert-4904-modify-redirect-if-auth-middleware-to-allow-multiple-guards
+    
+    Revert "[5.8] Modify RedirectIfAuthenticated middleware to accept multiple guards"
+
+[33mcommit 44d274174f15317e3d28a0ea4aead883fb0f5bb2[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Sun Feb 24 18:51:07 2019 -0600
+
+    Revert "[5.8] Modify RedirectIfAuthenticated middleware to accept multiple guards"
+
+[33mcommit 426df7a0e4d489439002cf99c37246aeebdc5327[m
+Author: Ankur Kumar <ankurk91@users.noreply.github.com>
+Date:   Sun Feb 24 10:53:30 2019 +0530
+
+    [5.8] use bigIncrements by default
+    
+    All new migrations will be using bigIncrements
+    https://github.com/laravel/framework/pull/26472
+
+[33mcommit 1d8add88f783eb2c0ef2814968908e725f0d5e43[m
+Merge: d201c69a 3c53897e
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 19 21:58:38 2019 -0500
+
+    Merge branch 'develop' of github.com:laravel/laravel into develop
+
+[33mcommit d201c69a8bb6cf7407ac3a6c0a0e89f183061682[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 19 21:58:25 2019 -0500
+
+    update config file
+
+[33mcommit 3c53897ee4e7eca8f8508ff9bd10e221234efadb[m
+Merge: ea7fc0b3 83b6be51
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Fri Feb 15 18:47:27 2019 +0100
+
+    Merge branch 'master' into develop
+
+[33mcommit 83b6be51ade5d7f0e112c68e0eb7b5c2a5cf7db4[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Fri Feb 15 18:45:50 2019 +0100
+
+    Update changelog
+
+[33mcommit ea7fc0b3361a3d3dc2cb9f83f030669bbcb31e1d[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Fri Feb 15 07:51:45 2019 -0600
+
+    update client
+
+[33mcommit 2f2fe98aa9b97640509c5f930973b1fa84abe122[m
+Merge: df4ecb9c 0904307e
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Feb 14 11:03:51 2019 -0600
+
+    Merge branch 'develop' of github.com:laravel/laravel into develop
+
+[33mcommit df4ecb9c8352252e1bc239cbfa32a3a05e194162[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Thu Feb 14 11:03:41 2019 -0600
+
+    change default redis configuration structure
+
+[33mcommit 0904307e6a974320818aeb5ff083e151977da25d[m
+Merge: fae44eeb 69bd1dce
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Feb 13 08:45:03 2019 -0600
+
+    Merge pull request #4943 from crynobone/patch-1
+    
+    [5.8] Use $_SERVER instead of $_ENV for phpunit.
+
+[33mcommit 69bd1dceefb1434e57dbbda7625c571030dd5edb[m
+Author: Mior Muhammad Zaki <crynobone@gmail.com>
+Date:   Wed Feb 13 08:54:45 2019 +0800
+
+    Use $_SERVER instead of $_ENV for phpunit.
+    
+    Laravel 5.8 limits dotenv to only rely on $_SERVER and not $_ENV. See https://github.com/laravel/framework/pull/27462
+
+[33mcommit fae44eeb26d549a695a1ea0267b117adf55f83e8[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue Feb 12 16:53:32 2019 +0100
+
+    Replace string helper
+
+[33mcommit 75468420a4c6c28b980319240056e884b4647d63[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Sat Feb 9 14:05:33 2019 +0100
+
+    Use same version as framework
+
+[33mcommit e4f20eac3649d5bb21531bee98326b434b36e744[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Sat Feb 9 12:21:57 2019 +0100
+
+    Reverse minimum PHPUnit version
+
+[33mcommit 7b675abe4bcecea0ee1e74267c5037272a0c5302[m
+Merge: 2b14e0e9 4dc76847
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Fri Feb 8 16:10:44 2019 -0600
+
+    Merge pull request #4939 from driesvints/phpunit8
+    
+    [5.8] Update to PHPUnit 8
+
+[33mcommit 4dc76847c1c9b188a3d00e5e97d63690c4bc1beb[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Fri Feb 8 17:14:08 2019 +0100
+
+    Update to PHPUnit 8
+    
+    Encourage people on 5.8 to use PHPUnit 8.
+
+[33mcommit 2a1f3761e89df690190e9f50a6b4ac5ebb8b35a3[m[33m ([m[1;33mtag: v5.7.28[m[33m)[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Tue Feb 5 18:46:48 2019 +0100
+
+    Fix Typo
+
+[33mcommit 864b1de19ba77b15889622756e2e992e1fcd4377[m
+Merge: 43182688 d638b3cd
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 5 07:37:34 2019 -0600
+
+    Merge pull request #4934 from JakeConnors376W/patch-1
+    
+    [5.7] Improve grammar and readability
+
+[33mcommit 43182688cfb807fdfa34c7a84b0c726e126248ba[m
+Merge: 049c7c9f e40dfc6b
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Tue Feb 5 07:33:19 2019 -0600
+
+    Merge pull request #4935 from eddybrando/feat/remove-unnecessary-link-type
+    
+    [5.7] Remove unnecessary link type on "welcome" view
+
+[33mcommit e40dfc6b4d1e8f0e3994471b583e821f3a0710d8[m
+Author: Eddybrando Vásquez <eddybrando.vasquez@gmail.com>
+Date:   Mon Feb 4 22:45:28 2019 +0100
+
+    feat: Remove unnecessary link type
+
+[33mcommit d638b3cd53545d441cd1639bed8b16a7060c0b1e[m
+Author: JakeConnors376W <46732192+JakeConnors376W@users.noreply.github.com>
+Date:   Mon Feb 4 09:26:04 2019 -0800
+
+    Improve grammar and readability
+
+[33mcommit 049c7c9f7540c0097c406dbb0f8df7624051c2c8[m
+Merge: f1702e9c 25a980f3
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Feb 4 11:23:04 2019 -0600
+
+    Merge pull request #4933 from laravel/revert-4931-master
+    
+    Revert "[5.7] Ignore testing folder on storage/framework"
+
+[33mcommit 25a980f35a721302c388e3743b6957212af3a071[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Feb 4 11:22:55 2019 -0600
+
+    Revert "[5.7] Ignore testing folder on storage/framework"
+
+[33mcommit f1702e9c7dc194e8589077aa4b401c95619f70b1[m
+Merge: 37026224 c9cd9b35
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Feb 4 11:22:26 2019 -0600
+
+    Merge pull request #4931 from simoebenhida/master
+    
+    [5.7] Ignore testing folder on storage/framework
+
+[33mcommit c9cd9b356aa90ace55502a4c3375aa6bdcc3af53[m
+Author: Mohamed <contact@mohamedbenhida.com>
+Date:   Mon Feb 4 17:35:16 2019 +0100
+
+    ignore testing folder on storage/framework
+
+[33mcommit 3702622461682142ff46ef342ee8741dada69e8d[m
+Merge: ed60178b 2f37ba38
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Feb 4 07:31:43 2019 -0600
+
+    Merge pull request #4930 from epalmans/master
+    
+    Attribute casting for 'email_verified_at' on User model stub (with explanation)
+
+[33mcommit 2f37ba38fa8f7cf6a1cda070984459405e90a37a[m
+Author: Eddie Palmans <epalmans@gmail.com>
+Date:   Mon Feb 4 14:28:05 2019 +0100
+
+    Attribute casting for 'email_verified_at' on User model stub
+
+[33mcommit ed60178bcc0fc926543b1b4b367737a8a47c8ba8[m
+Merge: 6efb843e 961aac5d
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Mon Feb 4 07:15:00 2019 -0600
+
+    Merge pull request #4929 from AbdelElrafa/master
+    
+    Add sponsor.
+
+[33mcommit 961aac5da95fb376d214c7f1f1d3fc582d0c9745[m
+Author: Abdel <pro@boca.pro>
+Date:   Mon Feb 4 08:08:58 2019 -0500
+
+    Add sponsor.
+
+[33mcommit 098cf4600b98fb16ac73f0b4d5768325b6bdc56a[m
+Author: Eddie Palmans <epalmans@gmail.com>
+Date:   Mon Feb 4 13:06:44 2019 +0100
+
+    Date mutator for 'email_verified_at' attribute on User model stub
+
+[33mcommit 6efb843e7de5e18ed7c1b0061346cbd46d465827[m
+Merge: 7ba612b3 6e60cf93
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Sat Feb 2 14:57:25 2019 +0100
+
+    Merge pull request #4926 from kawax/str
+    
+    Use Str::random() instead of str_random()
+
+[33mcommit 6e60cf93a468ef0a061ecad48fe503cb110a2623[m
+Author: Dries Vints <dries.vints@gmail.com>
+Date:   Sat Feb 2 14:56:57 2019 +0100
+
+    Update UserFactory.php
+
+[33mcommit 992c270d447c011267eeced8b3c0abe9ca3b3970[m
+Author: kawax <kawaxbiz@gmail.com>
+Date:   Sat Feb 2 12:15:36 2019 +0900
+
+    Use Str::random() instead of str_random()
+
+[33mcommit 7ba612b3ef50ae7452ed5df82cc03df4a9bd40a2[m
+Merge: 4ce439c2 7b322b64
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Jan 30 16:26:08 2019 -0600
+
+    Merge pull request #4924 from fideloper/patch-2
+    
+    [5.7] web.config comment to help debug issues
+
+[33mcommit 7b322b643135fbf7121130ad51ea5a2649cd7ff0[m
+Author: Taylor Otwell <taylor@laravel.com>
+Date:   Wed Jan 30 16:26:00 2019 -0600
+
+    Update web.config
